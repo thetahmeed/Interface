@@ -3,5 +3,7 @@ public class App {
         MiddleClass middleClass = new MiddleClass();
 
         middleClass.test();
+
+        // Can't create any object of interface
     }
 }
