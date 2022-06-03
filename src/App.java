@@ -5,10 +5,13 @@ public class App {
         middleClass.test();
 
         // Can't create any object of interface
-        // MyInterface myInterface = new MyInterface();     // Not possible
+        // MyInterface myInterface = new MyInterface(); // Not possible
 
         // But we can create refference of interface
         MyInterface m = new MiddleClass();
         m.test();
+
+       // Accessing interface variables
+       System.out.println("Value of i is "+middleClass.a);
     }
 }
