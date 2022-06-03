@@ -7,7 +7,6 @@ public class MiddleClass implements MyInterface{
     // interface to interface => extends
     // class to interface => implements
 
-    @Override
     public void test() {
         System.out.println("Interface implementation from test MiddleClass");
     }
