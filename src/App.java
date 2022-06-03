@@ -5,5 +5,9 @@ public class App {
         middleClass.test();
 
         // Can't create any object of interface
+        // MyInterface myInterface = new MyInterface();     // Not possible
+
+
+
     }
 }
