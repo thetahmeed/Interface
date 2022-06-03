@@ -10,4 +10,7 @@ public class MiddleClass implements MyInterface{
     public void test() {
         System.out.println("Interface implementation from test MiddleClass");
     }
+
+     // Accessing interface variables
+     int a = i;
 }
