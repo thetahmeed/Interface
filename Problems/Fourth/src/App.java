@@ -1,5 +1,5 @@
 
-// Ex: 10.4
+// Debugging Ex: 10.4
 
 public class App {
     public static void main(String[] args) throws Exception {
